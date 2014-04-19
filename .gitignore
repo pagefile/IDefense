@@ -41,3 +41,5 @@ application/logs/*.php
 /.Trashes
 /ehthumbs.db
 /Thumbs.db
+
+/Library/
