@@ -25,7 +25,7 @@ public class DamageableObject : BaseBehaviour
 	//=========================================
 	
 	// Use this for initialization
-	void Start ()
+    void Awake ()
 	{
 		curHealth = MaxHealth;
 	}
@@ -35,6 +35,17 @@ public class DamageableObject : BaseBehaviour
 	{
 		curHealth -= d;	
 	}
+
+    public void Heal(float h) {
+        curHealth += h;
+        if(curHealth > MaxHealth) {
+            curHealth = MaxHealth;
+        }
+    }
 	
-	// TODO: Either in Update or FixedUpdate add this to the dead objects list - AG 2/18/13
+    public void Update() {
+        if (curHealth <= 0) {
+            Object.Destroy(this.transform.gameObject);
+        }
+    }
 }
