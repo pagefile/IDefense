@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{A7081264-D589-A1DA-0981-4CB6FBC8D506}</ProjectGuid>
+	<ProjectGuid>{AB4D9703-ADA2-B233-B27D-97EAF252151C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,7 +49,6 @@
      <Compile Include="Assets\Standard Assets\Scripts\AI\PatrolPoint.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\AI\SimplePatrol.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Camera Scripts\FollowFly.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Controllers\PlayerControl.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\BaseBehaviour.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\DamageableObject.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\RollConstraint.cs" />
