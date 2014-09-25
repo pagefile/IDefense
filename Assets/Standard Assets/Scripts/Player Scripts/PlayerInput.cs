@@ -4,13 +4,13 @@ using System.Collections;
 public class PlayerInput : MonoBehaviour
 {
 	// VERY temporary hack. HHHRRRNGGNGGNGG
-	public VehicleShip		controlledShip;
+	[SerializeField] private VehicleShip		controlledShip = null;
 	
 	// I need a better place for these	- AG 2/11/13
-	public float			IdleFOV;
-	public float			MinFOV;
-	public float			MaxFOV;
-	public float			FOVLerpTime;
+	[SerializeField] private float			IdleFOV		= 90f;
+	[SerializeField] private float			MinFOV		= 70f;
+	[SerializeField] private float			MaxFOV		= 110f;
+	[SerializeField] private float			FOVLerpTime	= 0.5f;
 	
 	private float			ipYaw;
 	private float			ipPitch;

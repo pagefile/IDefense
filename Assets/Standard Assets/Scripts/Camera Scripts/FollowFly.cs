@@ -3,18 +3,11 @@ using System.Collections;
 
 public class FollowFly : MonoBehaviour
 {
-	public Transform	target;
-	public float		distance;
-	public float		height;
+	[SerializeField] private Transform  target;
+    [SerializeField] private float      distance = 15f;
+    [SerializeField] private float      height = 5f;
 	
 	public Vector3		LookAtOffset;
-	
-	
-	// Use this for initialization
-	void Start ()
-	{
-		
-	}
 	
 	// Update is called once per frame
 	void LateUpdate()

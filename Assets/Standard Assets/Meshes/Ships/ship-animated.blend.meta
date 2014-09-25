@@ -1,15 +1,21 @@
 fileFormatVersion: 2
-guid: fc6c5cdcbd55f4744aba67d67d200742
+guid: 0a9e703e1c06e324d806a692be1de5c1
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
+    100000: Armature
+    100002: Bone
+    100004: Cube
+    100006: //RootNode
+    400000: Armature
+    400002: Bone
+    400004: Cube
+    400006: //RootNode
     4300000: Cube
     7400000: Default Take
+    7400002: Action
     9500000: //RootNode
+    13700000: Cube
   materials:
     importMaterials: 1
     materialName: 0
@@ -18,6 +24,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
+    motionNodeName: 
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
@@ -61,5 +68,5 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
-  additionalBone: 1
+  additionalBone: 0
   userData: 

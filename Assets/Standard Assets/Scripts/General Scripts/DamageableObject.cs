@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class DamageableObject : BaseBehaviour
+public class DamageableObject : MonoBehaviour
 {
 	//=========================================
 	// Inspector Variables
